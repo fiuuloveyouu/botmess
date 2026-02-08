@@ -53,3 +53,5 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
       npm start
       ```
     2. Đợi source code load file và lọ mọ
+### ***CÀI ĐẶT CHO TERMUX CHO MẤY BỌN ANDROID QUÈN:*** 
+
