@@ -54,12 +54,17 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
       ```
     2. Đợi source code load file và lọ mọ
 ### ***CÀI ĐẶT CHO TERMUX CHO MẤY BỌN ANDROID QUÈN:*** 
-
-Dán cái này lúc mới vào Termux (lưu ý phải cấp quyền truy cập file cho Termux nhé)
-apt update && apt upgrade -y && apt install proot-distro -y && proot-distro install ubuntu && proot-distro login ubuntu
-sau khi đã vào root@localhost#:~#
-apt update
-apt upgrade -y
-apt-get install -y git curl sudo
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt-get install -y nodejs
+### Dán cái này lúc mới vào Termux (lưu ý phải cấp quyền truy cập file cho Termux nhé)
+- ```apt update && apt upgrade -y && apt install proot-distro -y && proot-distro install ubuntu && proot-distro login ubuntu```
+### sau khi đã vào root@localhost#:~# 
+- ```
+  apt update
+  apt upgrade -y
+  apt-get install -y git curl sudo
+  curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+  sudo apt-get install -y nodejs
+  git clone https://github.com/fiuuloveyouu/botmess
+  ```
+### Đối với lần chạy bot tiếp theo
+- `proot-distro login ubuntu`
+- Sau đó `cd` vào file bot của bạn và nhập `npm start` là được
