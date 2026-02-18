@@ -1,4 +1,4 @@
-# Mirai Bot Unofficial🤖<sub><sub>v3.0.0🚀</sub></sub>
+# Remaked Bot Unofficial🤖<sub><sub>v3.0.0🚀</sub></sub>
 <p align="center">
     <a href="https://nodejs.org/dist/v20.17.0"><img src="https://img.shields.io/badge/Nodejs%20Support-20.x-brightgreen.svg?style=flat-square" alt="Nodejs Support v20.x"></a>
     <img alt="size" src="https://img.shields.io/github/repo-size/LunarKrystal/Mirai.svg?style=flat-square&label=size">
@@ -14,46 +14,21 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
 ### 💡 **Yêu cầu**
 
 - Dung lượng của máy phải trống tầm 1-2gb.
-- Cần một số phần mềm chỉnh sửa file, khuyến khích sử dụng [notepad++](https://notepad-plus-plus.org/downloads/) hoặc [sublime text 3](https://www.sublimetext.com/3)
-- Cần hiểu biết sơ lược qua về node, javascript.
-- Một tài khoản Facebook dùng để làm bot(Khuyến khích nên sử dụng acc đã bỏ hoặc không còn sử dụng để tránh mất acc hay acc bị khoá).
-- Đối với:
-    - Windows: Cần cài đặt windows-build-tools.
-    - Linux: Cần cài đặt python3, Node 20.19.0
-    - Android Sử dụng termux để vận hành bot.
+- Ưu tiên acc cơlồn cờlôn tránh bị cấm acc chính lại kêu tại bố m
+- Cần mấy cái ngôn lồn để sửa cái lệnh hót ửa cho nó tap nổ con mẹ nó thông báo!
+- Đối với:(TẤT CẢ PHẢI LÀ ARMHF,VÀO TERMUX ĐẦU TIÊN PHẢI NHẬP
+  ```
+  uname -a
+  ```
+  XONG GỬI TAO,KHÔNG GỬI LÀ KHÔNG CÓ HD VẬN HÀNH BOT
+  https://facebook.com/lov3nse
+    - Linux: Cần cài đặt python3, Node 20.19.0 (Chắc đéo gì mn đã có linux hâh)
+    - Android Sử dụng termux để vận hành bot(hoặc root con mẹ nó máy rồi mount fs của kali vào là ngon luôn hâhha)
 
-### ⚙️ **Cài Đặt**
-
-1. Tải về [Nodejs](https://nodejs.org/en/) và [git](https://git-scm.com/) sau đó cài đặt
-2. Clone source code của bot
-    1. chuột phải ở folder cần cài đặt source code nhấn vào git bash
-    2. nhập
-    ```sh
-    git clone https://github.com/fiuuloveyouu/botmess
-    ```
-    
-3. Cài đặt các package cần thiết
-    1. Mở cmd/terminal ở thư mục bot, LƯU Ý thư mục đó phải có file package.json
-    2. Nhập
-    ```đéo cần vì tao upload sẵn module mới nhất rồi, cần gì phải cài
-    ```
-    
-4. Chỉnh sửa file config
-    1. Mở file config.json thông qua notepad++ hoặc sublime text 3 đã cài đặt ở trên
-    2. tùy chỉnh id admin, tên bot, ...
-    3. Sao lưu và đóng lại
-    
-5. Lấy cookie
-    - Bạn có thể sử dụng cookie từ extension, hoặc f12 lên để lấy cookie
-    - Tạo file cookie.txt và paste cookie vào, save để lưu
-      
-6. Chạy bot và tận hưởng
-    1. Nhập
-    ```sh
-      npm start
-      ```
-    2. Đợi source code load file và lọ mọ
-### ***CÀI ĐẶT CHO TERMUX CHO MẤY BỌN ANDROID QUÈN:*** 
+### ⚙️ **Cài Đặt (ĐÉO DÀNH CHO WINDOWS,CHỈ DÀNH CHO ARMHF ANDROID HOẶC LINUX)*
+***LẤY APPSTATE VÀ COOKIE:***
+-Lên Google Play Store cài kiwi browser về,mở lên đăng nhập fb,xong mở chrome web store cài cái gì c3c ufc utility(để lấy appstate) và get cookie token cho fb(chọn cái nào đều dc) xong tự nghiên cứu đi vì là free fix
+***CÀI ĐẶT CHO TERMUX CHO MẤY BỌN ANDROID QUÈN:*** 
 ### Dán cái này lúc mới vào Termux (lưu ý phải cấp quyền truy cập file cho Termux nhé)
 - ```apt update && apt upgrade -y && apt install proot-distro -y && proot-distro install ubuntu && proot-distro login ubuntu```
 ### sau khi đã vào root@localhost#:~# 
@@ -63,8 +38,26 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
   apt-get install -y git curl sudo
   curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
   sudo apt-get install -y nodejs
-  git clone https://github.com/fiuuloveyouu/botmess
+  wget https://www.mediafire.com/file/rc683nnabbqs43e/RemakedBot.zip/file?dkey=jbhigdjgwdm&r=1307
+  #ĐOẠN WGET MÀ KHÔNG ĐƯỢC THÌ NHẮN LÊN NHÓM DIỆT ỬA ĐỂ T GIÚP
+  unzip RemakedBot.zip
+  cd RemakedBot
+  nano cookie.txt
+  #LÚC NÀH CMAY DÁN COOKIE VÀO RỒI LƯU LẠI,CÁI DẤU ^ LÀ CTRL NÊN ĐỪNG HỎI NHIỀU SCLSCLSCL=))
+  #LƯU XONG CÒN CÁI NÀY NỮA CHỨ CHƯA XONG ĐÂU HÂHHA
+  nano appstate.json
+  #DÁN APPSTATE VÀO RỒI LƯU LẠI GIỐNG CÁCH LƯU COOKIE
+  ```
+  -Chỉnh sửa file config:Tự đi mà thay:))
+  Trêu xíu hoyy,thay mấy cái số lồn mà 11 10 số gì gì ở BOXADMIN NDH này nọ bằng id fb của mn,link fb thay luôn cũng được
+  ```
+   nano config.json
+  #thay các kiểu thông tin của cmay vào rồi lưu lại như cách lưu 2 cái lồn cookie appstate
+  ```
+  -Lưu xong bật con mẹ bot lên chơi thôi hâhhah
+  ```
+  node index
   ```
 ### Đối với lần chạy bot tiếp theo
 - `proot-distro login ubuntu`
-- Sau đó `cd` vào file bot của bạn và nhập `npm start` là được
+- Sau đó `cd` vào file bot của bạn và nhập `node index` là được
